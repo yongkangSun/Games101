@@ -1,0 +1,3 @@
+F:/computer graphics/Games101/homework/1/opencvTest/cmake-build-debug/CMakeFiles/opencvTest.dir
+F:/computer graphics/Games101/homework/1/opencvTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/computer graphics/Games101/homework/1/opencvTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

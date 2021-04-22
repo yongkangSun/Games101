@@ -1,0 +1,444 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/cpp c/codeblocks/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/cpp c/codeblocks/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe cmTC_3dffe/fast && E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3dffe.dir\build.make CMakeFiles/cmTC_3dffe.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dffe.dir/testCCompiler.c.obj
+"E:\cpp c\codeblocks\MinGW\bin\gcc.exe"    -o CMakeFiles\cmTC_3dffe.dir\testCCompiler.c.obj   -c "F:\computer graphics\Games101\homework\0\code\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_3dffe.exe
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3dffe.dir\link.txt --verbose=1
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3dffe.dir/objects.a
+"E:\cpp c\codeblocks\MinGW\bin\ar.exe" cr CMakeFiles\cmTC_3dffe.dir/objects.a @CMakeFiles\cmTC_3dffe.dir\objects1.rsp
+"E:\cpp c\codeblocks\MinGW\bin\gcc.exe"      -Wl,--whole-archive CMakeFiles\cmTC_3dffe.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3dffe.exe -Wl,--out-implib,libcmTC_3dffe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3dffe.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe cmTC_21a01/fast && E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_21a01.dir\build.make CMakeFiles/cmTC_21a01.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21a01.dir/CMakeCCompilerABI.c.obj
+"E:\cpp c\codeblocks\MinGW\bin\gcc.exe"   -v -o CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj   -c "E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\gcc.exe
+Target: mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/cc1.exe -quiet -v -iprefix E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/ -D_REENTRANT E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Konata\AppData\Local\Temp\ccfYqRCv.s
+GNU C (tdm-1) version 4.9.2 (mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../include"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include-fixed"
+ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed
+End of search list.
+GNU C (tdm-1) version 4.9.2 (mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: de04c17d724f939400db79fc48f27ec5
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj C:\Users\Konata\AppData\Local\Temp\ccfYqRCv.s
+GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/
+LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking C executable cmTC_21a01.exe
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_21a01.dir\link.txt --verbose=1
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_21a01.dir/objects.a
+"E:\cpp c\codeblocks\MinGW\bin\ar.exe" cr CMakeFiles\cmTC_21a01.dir/objects.a @CMakeFiles\cmTC_21a01.dir\objects1.rsp
+"E:\cpp c\codeblocks\MinGW\bin\gcc.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_21a01.dir/objects.a -Wl,--no-whole-archive  -o cmTC_21a01.exe -Wl,--out-implib,libcmTC_21a01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=E:/cpp\ c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm-1) 
+COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/
+LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21a01.exe' '-mtune=generic' '-march=pentiumpro'
+ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Konata\AppData\Local\Temp\ccby9TKZ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_21a01.exe E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_21a01.dir/objects.a --no-whole-archive --out-implib libcmTC_21a01.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o
+mingw32-make.exe[1]: Leaving directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include]
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include]
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed]
+  end of search list found
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include] ==> [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include]
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include] ==> [E:/cpp c/codeblocks/MinGW/include]
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed] ==> [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include-fixed]
+  implicit include dirs: [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include;E:/cpp c/codeblocks/MinGW/include;E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe cmTC_21a01/fast && E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_21a01.dir\build.make CMakeFiles/cmTC_21a01.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_21a01.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["E:\cpp c\codeblocks\MinGW\bin\gcc.exe"   -v -o CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj   -c "E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\gcc.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (tdm-1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/cc1.exe -quiet -v -iprefix E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/ -D_REENTRANT E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\Konata\AppData\Local\Temp\ccfYqRCv.s]
+  ignore line: [GNU C (tdm-1) version 4.9.2 (mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../include"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include-fixed"]
+  ignore line: [ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (tdm-1) version 4.9.2 (mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: de04c17d724f939400db79fc48f27ec5]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj C:\Users\Konata\AppData\Local\Temp\ccfYqRCv.s]
+  ignore line: [GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24]
+  ignore line: [COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_21a01.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [Linking C executable cmTC_21a01.exe]
+  ignore line: ["E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_21a01.dir\link.txt --verbose=1]
+  ignore line: ["E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_21a01.dir/objects.a]
+  ignore line: ["E:\cpp c\codeblocks\MinGW\bin\ar.exe" cr CMakeFiles\cmTC_21a01.dir/objects.a @CMakeFiles\cmTC_21a01.dir\objects1.rsp]
+  ignore line: ["E:\cpp c\codeblocks\MinGW\bin\gcc.exe"     -v -Wl --whole-archive CMakeFiles\cmTC_21a01.dir/objects.a -Wl --no-whole-archive  -o cmTC_21a01.exe -Wl --out-implib libcmTC_21a01.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=E:/cpp\ c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (tdm-1) ]
+  ignore line: [COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21a01.exe' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Konata\AppData\Local\Temp\ccby9TKZ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_21a01.exe E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_21a01.dir/objects.a --no-whole-archive --out-implib libcmTC_21a01.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe cmTC_e0ffc/fast && E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e0ffc.dir\build.make CMakeFiles/cmTC_e0ffc.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0ffc.dir/testCXXCompiler.cxx.obj
+"E:\cpp c\codeblocks\MinGW\bin\g++.exe"     -o CMakeFiles\cmTC_e0ffc.dir\testCXXCompiler.cxx.obj -c "F:\computer graphics\Games101\homework\0\code\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_e0ffc.exe
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e0ffc.dir\link.txt --verbose=1
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e0ffc.dir/objects.a
+"E:\cpp c\codeblocks\MinGW\bin\ar.exe" cr CMakeFiles\cmTC_e0ffc.dir/objects.a @CMakeFiles\cmTC_e0ffc.dir\objects1.rsp
+"E:\cpp c\codeblocks\MinGW\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_e0ffc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e0ffc.exe -Wl,--out-implib,libcmTC_e0ffc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e0ffc.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe cmTC_3264c/fast && E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3264c.dir\build.make CMakeFiles/cmTC_3264c.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3264c.dir/CMakeCXXCompilerABI.cpp.obj
+"E:\cpp c\codeblocks\MinGW\bin\g++.exe"    -v -o CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\g++.exe
+Target: mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/ -D_REENTRANT E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Konata\AppData\Local\Temp\cc5kTwAv.s
+GNU C++ (tdm-1) version 4.9.2 (mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include/c++"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include/c++/mingw32"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include/c++/backward"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../include"
+ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include-fixed"
+ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed
+End of search list.
+GNU C++ (tdm-1) version 4.9.2 (mingw32)
+	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a5712780ee591f5789eb30eee33b2e7f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Konata\AppData\Local\Temp\cc5kTwAv.s
+GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/
+LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking CXX executable cmTC_3264c.exe
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3264c.dir\link.txt --verbose=1
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3264c.dir/objects.a
+"E:\cpp c\codeblocks\MinGW\bin\ar.exe" cr CMakeFiles\cmTC_3264c.dir/objects.a @CMakeFiles\cmTC_3264c.dir\objects1.rsp
+"E:\cpp c\codeblocks\MinGW\bin\g++.exe"     -v -Wl,--whole-archive CMakeFiles\cmTC_3264c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3264c.exe -Wl,--out-implib,libcmTC_3264c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\g++.exe
+COLLECT_LTO_WRAPPER=E:/cpp\ c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.9.2 (tdm-1) 
+COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/
+LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/;E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3264c.exe' '-mtune=generic' '-march=pentiumpro'
+ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Konata\AppData\Local\Temp\ccfsDRI0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_3264c.exe E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_3264c.dir/objects.a --no-whole-archive --out-implib libcmTC_3264c.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o
+mingw32-make.exe[1]: Leaving directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++]
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32]
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward]
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include]
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include]
+    add: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed]
+  end of search list found
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++] ==> [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++]
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32] ==> [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/mingw32]
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward] ==> [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/backward]
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include] ==> [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include]
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include] ==> [E:/cpp c/codeblocks/MinGW/include]
+  collapse include dir [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed] ==> [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include-fixed]
+  implicit include dirs: [E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++;E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/mingw32;E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/backward;E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include;E:/cpp c/codeblocks/MinGW/include;E:/cpp c/codeblocks/MinGW/lib/gcc/mingw32/4.9.2/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe cmTC_3264c/fast && E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3264c.dir\build.make CMakeFiles/cmTC_3264c.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3264c.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["E:\cpp c\codeblocks\MinGW\bin\g++.exe"    -v -o CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\g++.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (tdm-1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/ -D_REENTRANT E:\cpp c\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\Konata\AppData\Local\Temp\cc5kTwAv.s]
+  ignore line: [GNU C++ (tdm-1) version 4.9.2 (mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include/c++"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include/c++/mingw32"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../include"]
+  ignore line: [ignoring duplicate directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/include-fixed"]
+  ignore line: [ignoring nonexistent directory "E:/cpp c/codeblocks/MinGW/lib/gcc/../../lib/gcc/mingw32/4.9.2/../../../../mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include]
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (tdm-1) version 4.9.2 (mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a5712780ee591f5789eb30eee33b2e7f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Konata\AppData\Local\Temp\cc5kTwAv.s]
+  ignore line: [GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24]
+  ignore line: [COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3264c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [Linking CXX executable cmTC_3264c.exe]
+  ignore line: ["E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3264c.dir\link.txt --verbose=1]
+  ignore line: ["E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3264c.dir/objects.a]
+  ignore line: ["E:\cpp c\codeblocks\MinGW\bin\ar.exe" cr CMakeFiles\cmTC_3264c.dir/objects.a @CMakeFiles\cmTC_3264c.dir\objects1.rsp]
+  ignore line: ["E:\cpp c\codeblocks\MinGW\bin\g++.exe"     -v -Wl --whole-archive CMakeFiles\cmTC_3264c.dir/objects.a -Wl --no-whole-archive  -o cmTC_3264c.exe -Wl --out-implib libcmTC_3264c.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\cpp c\codeblocks\MinGW\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=E:/cpp\ c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (tdm-1) ]
+  ignore line: [COMPILER_PATH=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib/]
+  ignore line: [E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3264c.exe' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/collect2.exe -plugin E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=E:/cpp c/codeblocks/MinGW/bin/../libexec/gcc/mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Konata\AppData\Local\Temp\ccfsDRI0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_3264c.exe E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../crt2.o E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtbegin.o -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2 -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../mingw32/lib -LE:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_3264c.dir/objects.a --no-whole-archive --out-implib libcmTC_3264c.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt E:/cpp c/codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/crtend.o]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe cmTC_8fcf6/fast && E:/cpp c/codeblocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8fcf6.dir\build.make CMakeFiles/cmTC_8fcf6.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8fcf6.dir/feature_tests.cxx.obj
+"E:\cpp c\codeblocks\MinGW\bin\g++.exe"    -std=c++14 -o CMakeFiles\cmTC_8fcf6.dir\feature_tests.cxx.obj -c "F:\computer graphics\Games101\homework\0\code\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_8fcf6.exe
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8fcf6.dir\link.txt --verbose=1
+"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8fcf6.dir/objects.a
+"E:\cpp c\codeblocks\MinGW\bin\ar.exe" cr CMakeFiles\cmTC_8fcf6.dir/objects.a @CMakeFiles\cmTC_8fcf6.dir\objects1.rsp
+"E:\cpp c\codeblocks\MinGW\bin\g++.exe"      -Wl,--whole-archive CMakeFiles\cmTC_8fcf6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8fcf6.exe -Wl,--out-implib,libcmTC_8fcf6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8fcf6.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/computer graphics/Games101/homework/0/code/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

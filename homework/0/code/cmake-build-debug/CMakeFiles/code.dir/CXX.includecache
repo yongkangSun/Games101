@@ -1,0 +1,1064 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/computer graphics/Games101/homework/0/code/main.cpp
+cmath
+-
+F:/computer graphics/eigen/eigen3/Eigen/Core
+-
+F:/computer graphics/eigen/eigen3/Eigen/Dense
+-
+iostream
+-
+
+F:/computer graphics/eigen/eigen3/Eigen/Cholesky
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+Jacobi
+F:/computer graphics/eigen/eigen3/Eigen/Jacobi
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+src/Cholesky/LLT.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Cholesky/LLT.h
+src/Cholesky/LDLT.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Cholesky/LDLT.h
+mkl_lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/mkl_lapacke.h
+src/misc/lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke.h
+src/Cholesky/LLT_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+math_functions.hpp
+-
+new
+-
+src/Core/util/Macros.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Macros.h
+complex
+-
+src/Core/util/MKL_support.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/MKL_support.h
+malloc.h
+-
+immintrin.h
+-
+mmintrin.h
+-
+emmintrin.h
+-
+xmmintrin.h
+-
+pmmintrin.h
+-
+tmmintrin.h
+-
+smmintrin.h
+-
+nmmintrin.h
+-
+immintrin.h
+-
+altivec.h
+-
+altivec.h
+-
+arm_neon.h
+-
+vecintrin.h
+-
+vector_types.h
+-
+host_defines.h
+-
+cuda_fp16.h
+-
+omp.h
+-
+cerrno
+-
+cstddef
+-
+cstdlib
+-
+cmath
+-
+cassert
+-
+functional
+-
+iosfwd
+-
+cstring
+-
+string
+-
+limits
+-
+climits
+-
+algorithm
+-
+type_traits
+-
+iostream
+-
+intrin.h
+-
+src/Core/util/Constants.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Constants.h
+src/Core/util/Meta.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Meta.h
+src/Core/util/ForwardDeclarations.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+src/Core/util/StaticAssert.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/StaticAssert.h
+src/Core/util/XprHelper.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/XprHelper.h
+src/Core/util/Memory.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Memory.h
+src/Core/NumTraits.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/NumTraits.h
+src/Core/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MathFunctions.h
+src/Core/GenericPacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/GenericPacketMath.h
+src/Core/MathFunctionsImpl.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+src/Core/arch/Default/ConjHelper.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+src/Core/arch/SSE/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+src/Core/arch/AVX/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+src/Core/arch/AVX512/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+src/Core/arch/AVX512/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+src/Core/arch/SSE/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+src/Core/arch/SSE/Complex.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+src/Core/arch/SSE/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+src/Core/arch/AVX/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+src/Core/arch/AVX/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+src/Core/arch/AVX/Complex.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+src/Core/arch/AVX/TypeCasting.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+src/Core/arch/SSE/TypeCasting.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+src/Core/arch/SSE/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+src/Core/arch/SSE/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+src/Core/arch/SSE/Complex.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+src/Core/arch/SSE/TypeCasting.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+src/Core/arch/AltiVec/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+src/Core/arch/AltiVec/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+src/Core/arch/AltiVec/Complex.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+src/Core/arch/NEON/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+src/Core/arch/NEON/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+src/Core/arch/NEON/Complex.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+src/Core/arch/ZVector/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+src/Core/arch/ZVector/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+src/Core/arch/ZVector/Complex.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+src/Core/arch/CUDA/Half.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+src/Core/arch/CUDA/PacketMathHalf.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+src/Core/arch/CUDA/TypeCasting.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
+src/Core/arch/CUDA/PacketMath.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+src/Core/arch/CUDA/MathFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+src/Core/arch/Default/Settings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/Default/Settings.h
+src/Core/functors/TernaryFunctors.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+src/Core/functors/BinaryFunctors.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+src/Core/functors/UnaryFunctors.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+src/Core/functors/NullaryFunctors.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+src/Core/functors/StlFunctors.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/StlFunctors.h
+src/Core/functors/AssignmentFunctors.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+src/Core/arch/CUDA/Complex.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+src/Core/IO.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/IO.h
+src/Core/DenseCoeffsBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+src/Core/DenseBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DenseBase.h
+src/Core/MatrixBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MatrixBase.h
+src/Core/EigenBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/EigenBase.h
+src/Core/Product.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Product.h
+src/Core/CoreEvaluators.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CoreEvaluators.h
+src/Core/AssignEvaluator.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/AssignEvaluator.h
+src/Core/Assign.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Assign.h
+src/Core/ArrayBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ArrayBase.h
+src/Core/util/BlasUtil.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/BlasUtil.h
+src/Core/DenseStorage.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DenseStorage.h
+src/Core/NestByValue.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/NestByValue.h
+src/Core/ReturnByValue.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ReturnByValue.h
+src/Core/NoAlias.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/NoAlias.h
+src/Core/PlainObjectBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/PlainObjectBase.h
+src/Core/Matrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Matrix.h
+src/Core/Array.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Array.h
+src/Core/CwiseTernaryOp.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+src/Core/CwiseBinaryOp.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+src/Core/CwiseUnaryOp.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+src/Core/CwiseNullaryOp.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+src/Core/CwiseUnaryView.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseUnaryView.h
+src/Core/SelfCwiseBinaryOp.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+src/Core/Dot.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Dot.h
+src/Core/StableNorm.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/StableNorm.h
+src/Core/Stride.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Stride.h
+src/Core/MapBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MapBase.h
+src/Core/Map.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Map.h
+src/Core/Ref.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Ref.h
+src/Core/Block.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Block.h
+src/Core/VectorBlock.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/VectorBlock.h
+src/Core/Transpose.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Transpose.h
+src/Core/DiagonalMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DiagonalMatrix.h
+src/Core/Diagonal.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Diagonal.h
+src/Core/DiagonalProduct.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DiagonalProduct.h
+src/Core/Redux.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Redux.h
+src/Core/Visitor.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Visitor.h
+src/Core/Fuzzy.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Fuzzy.h
+src/Core/Swap.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Swap.h
+src/Core/CommaInitializer.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CommaInitializer.h
+src/Core/GeneralProduct.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/GeneralProduct.h
+src/Core/Solve.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Solve.h
+src/Core/Inverse.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Inverse.h
+src/Core/SolverBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SolverBase.h
+src/Core/PermutationMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/PermutationMatrix.h
+src/Core/Transpositions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Transpositions.h
+src/Core/TriangularMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/TriangularMatrix.h
+src/Core/SelfAdjointView.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SelfAdjointView.h
+src/Core/products/GeneralBlockPanelKernel.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+src/Core/products/Parallelizer.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/Parallelizer.h
+src/Core/ProductEvaluators.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ProductEvaluators.h
+src/Core/products/GeneralMatrixVector.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+src/Core/products/GeneralMatrixMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+src/Core/SolveTriangular.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SolveTriangular.h
+src/Core/products/GeneralMatrixMatrixTriangular.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+src/Core/products/SelfadjointMatrixVector.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+src/Core/products/SelfadjointMatrixMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+src/Core/products/SelfadjointProduct.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+src/Core/products/SelfadjointRank2Update.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+src/Core/products/TriangularMatrixVector.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+src/Core/products/TriangularMatrixMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+src/Core/products/TriangularSolverMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+src/Core/products/TriangularSolverVector.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+src/Core/BandMatrix.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/BandMatrix.h
+src/Core/CoreIterators.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CoreIterators.h
+src/Core/ConditionEstimator.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ConditionEstimator.h
+src/Core/BooleanRedux.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/BooleanRedux.h
+src/Core/Select.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Select.h
+src/Core/VectorwiseOp.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/VectorwiseOp.h
+src/Core/Random.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Random.h
+src/Core/Replicate.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Replicate.h
+src/Core/Reverse.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Reverse.h
+src/Core/ArrayWrapper.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ArrayWrapper.h
+src/Core/products/GeneralMatrixMatrix_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+src/Core/products/GeneralMatrixVector_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+src/Core/products/SelfadjointMatrixVector_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+src/Core/products/TriangularMatrixMatrix_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+src/Core/products/TriangularMatrixVector_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+src/Core/products/TriangularSolverMatrix_BLAS.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+src/Core/Assign_MKL.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Assign_MKL.h
+src/Core/GlobalFunctions.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/GlobalFunctions.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/Dense
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+LU
+F:/computer graphics/eigen/eigen3/Eigen/LU
+Cholesky
+F:/computer graphics/eigen/eigen3/Eigen/Cholesky
+QR
+F:/computer graphics/eigen/eigen3/Eigen/QR
+SVD
+F:/computer graphics/eigen/eigen3/Eigen/SVD
+Geometry
+F:/computer graphics/eigen/eigen3/Eigen/Geometry
+Eigenvalues
+F:/computer graphics/eigen/eigen3/Eigen/Eigenvalues
+
+F:/computer graphics/eigen/eigen3/Eigen/Eigenvalues
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+Cholesky
+F:/computer graphics/eigen/eigen3/Eigen/Cholesky
+Jacobi
+F:/computer graphics/eigen/eigen3/Eigen/Jacobi
+Householder
+F:/computer graphics/eigen/eigen3/Eigen/Householder
+LU
+F:/computer graphics/eigen/eigen3/Eigen/LU
+Geometry
+F:/computer graphics/eigen/eigen3/Eigen/Geometry
+src/misc/RealSvd2x2.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/RealSvd2x2.h
+src/Eigenvalues/Tridiagonalization.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+src/Eigenvalues/RealSchur.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+src/Eigenvalues/EigenSolver.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+src/Eigenvalues/SelfAdjointEigenSolver.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+src/Eigenvalues/HessenbergDecomposition.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+src/Eigenvalues/ComplexSchur.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+src/Eigenvalues/ComplexEigenSolver.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+src/Eigenvalues/RealQZ.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+src/Eigenvalues/GeneralizedEigenSolver.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+src/Eigenvalues/MatrixBaseEigenvalues.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+mkl_lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/mkl_lapacke.h
+src/misc/lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke.h
+src/Eigenvalues/RealSchur_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+src/Eigenvalues/ComplexSchur_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/Geometry
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+SVD
+F:/computer graphics/eigen/eigen3/Eigen/SVD
+LU
+F:/computer graphics/eigen/eigen3/Eigen/LU
+limits
+-
+src/Geometry/OrthoMethods.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/OrthoMethods.h
+src/Geometry/EulerAngles.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/EulerAngles.h
+src/Geometry/Homogeneous.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Homogeneous.h
+src/Geometry/RotationBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/RotationBase.h
+src/Geometry/Rotation2D.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Rotation2D.h
+src/Geometry/Quaternion.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Quaternion.h
+src/Geometry/AngleAxis.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/AngleAxis.h
+src/Geometry/Transform.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Transform.h
+src/Geometry/Translation.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Translation.h
+src/Geometry/Scaling.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Scaling.h
+src/Geometry/Hyperplane.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Hyperplane.h
+src/Geometry/ParametrizedLine.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+src/Geometry/AlignedBox.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/AlignedBox.h
+src/Geometry/Umeyama.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Umeyama.h
+src/Geometry/arch/Geometry_SSE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/Householder
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+src/Householder/Householder.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Householder/Householder.h
+src/Householder/HouseholderSequence.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Householder/HouseholderSequence.h
+src/Householder/BlockHouseholder.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Householder/BlockHouseholder.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/Jacobi
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+src/Jacobi/Jacobi.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Jacobi/Jacobi.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/LU
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+src/misc/Kernel.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/Kernel.h
+src/misc/Image.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/Image.h
+src/LU/FullPivLU.h
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/FullPivLU.h
+src/LU/PartialPivLU.h
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/PartialPivLU.h
+mkl_lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/mkl_lapacke.h
+src/misc/lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke.h
+src/LU/PartialPivLU_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+src/LU/Determinant.h
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/Determinant.h
+src/LU/InverseImpl.h
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/InverseImpl.h
+src/LU/arch/Inverse_SSE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/QR
+Core
+F:/computer graphics/eigen/eigen3/Eigen/Core
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+Cholesky
+F:/computer graphics/eigen/eigen3/Eigen/Cholesky
+Jacobi
+F:/computer graphics/eigen/eigen3/Eigen/Jacobi
+Householder
+F:/computer graphics/eigen/eigen3/Eigen/Householder
+src/QR/HouseholderQR.h
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/HouseholderQR.h
+src/QR/FullPivHouseholderQR.h
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+src/QR/ColPivHouseholderQR.h
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+src/QR/CompleteOrthogonalDecomposition.h
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+mkl_lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/mkl_lapacke.h
+src/misc/lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke.h
+src/QR/HouseholderQR_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+src/QR/ColPivHouseholderQR_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/SVD
+QR
+F:/computer graphics/eigen/eigen3/Eigen/QR
+Householder
+F:/computer graphics/eigen/eigen3/Eigen/Householder
+Jacobi
+F:/computer graphics/eigen/eigen3/Eigen/Jacobi
+src/Core/util/DisableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+src/misc/RealSvd2x2.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/RealSvd2x2.h
+src/SVD/UpperBidiagonalization.h
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+src/SVD/SVDBase.h
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/SVDBase.h
+src/SVD/JacobiSVD.h
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/JacobiSVD.h
+src/SVD/BDCSVD.h
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/BDCSVD.h
+mkl_lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/mkl_lapacke.h
+src/misc/lapacke.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke.h
+src/SVD/JacobiSVD_LAPACKE.h
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+src/Core/util/ReenableStupidWarnings.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Cholesky/LDLT.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Cholesky/LLT.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Array.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ArrayBase.h
+../plugins/CommonCwiseUnaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+../plugins/MatrixCwiseUnaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+../plugins/ArrayCwiseUnaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+../plugins/CommonCwiseBinaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+../plugins/MatrixCwiseBinaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+../plugins/ArrayCwiseBinaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ArrayWrapper.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Assign.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/AssignEvaluator.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Assign_MKL.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/BandMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Block.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/BooleanRedux.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CommaInitializer.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ConditionEstimator.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CoreEvaluators.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CoreIterators.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/CwiseUnaryView.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DenseBase.h
+../plugins/BlockMethods.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/BlockMethods.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DenseStorage.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Diagonal.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DiagonalMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/DiagonalProduct.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Dot.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/EigenBase.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Fuzzy.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/GeneralProduct.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/GenericPacketMath.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/GlobalFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/IO.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Inverse.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Map.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MapBase.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Matrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/MatrixBase.h
+../plugins/CommonCwiseUnaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+../plugins/CommonCwiseBinaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+../plugins/MatrixCwiseUnaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+../plugins/MatrixCwiseBinaryOps.h
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/NestByValue.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/NoAlias.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/NumTraits.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/PermutationMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/PlainObjectBase.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Product.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ProductEvaluators.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Random.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Redux.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Ref.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Replicate.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/ReturnByValue.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Reverse.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Select.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SelfAdjointView.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Solve.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SolveTriangular.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/SolverBase.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/StableNorm.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Stride.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Swap.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Transpose.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Transpositions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/TriangularMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/VectorBlock.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/VectorwiseOp.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/Visitor.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/Default/Settings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+stdint.h
+-
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/StlFunctors.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/Parallelizer.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/BlasUtil.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Constants.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/MKL_support.h
+mkl.h
+-
+../../misc/blas.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/blas.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Macros.h
+cstdlib
+-
+iostream
+-
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Memory.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/Meta.h
+cfloat
+-
+math_constants.h
+-
+cstdint
+-
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/StaticAssert.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Core/util/XprHelper.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+./ComplexSchur.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+./HessenbergDecomposition.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+./RealSchur.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+./RealQZ.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+./Tridiagonalization.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+./HessenbergDecomposition.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+./Tridiagonalization.h
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/AlignedBox.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/AngleAxis.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/EulerAngles.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Homogeneous.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Hyperplane.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/OrthoMethods.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Quaternion.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Rotation2D.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/RotationBase.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Scaling.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Transform.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Translation.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/Umeyama.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Householder/BlockHouseholder.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Householder/Householder.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Householder/HouseholderSequence.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/Jacobi/Jacobi.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/Determinant.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/FullPivLU.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/InverseImpl.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/PartialPivLU.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/HouseholderQR.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/BDCSVD.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/JacobiSVD.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/SVDBase.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/Image.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/Kernel.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/RealSvd2x2.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/blas.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke.h
+lapacke_config.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke_config.h
+stdlib.h
+-
+complex.h
+-
+complex.h
+-
+lapacke_mangling.h
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke_mangling.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/misc/lapacke_mangling.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/BlockMethods.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+
+F:/computer graphics/eigen/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+

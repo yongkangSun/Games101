@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="code"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\graphics_lib_cpp\;CMake Files\graphics_lib_cpp\opencv_2\;CMake Files\graphics_lib_cpp\opencv_2\opencv\;CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\;CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\;CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\x64\;CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\x64\mingw\;CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\x64\mingw\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/computer graphics/Games101/homework/1/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code">
+				<Option output="F:/computer graphics/Games101/homework/1/code/cmake-build-debug/code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/computer graphics/Games101/homework/1/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="F:/computer"/>
+					<Add directory="F:/computer graphics/Games101/homework/1/code/graphics/eigen/eigen3"/>
+					<Add directory="E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include"/>
+					<Add directory="E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include/opencv"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 code"/>
+					<CompileFile command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code/fast">
+				<Option output="F:/computer graphics/Games101/homework/1/code/cmake-build-debug/code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/computer graphics/Games101/homework/1/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="F:/computer"/>
+					<Add directory="F:/computer graphics/Games101/homework/1/code/graphics/eigen/eigen3"/>
+					<Add directory="E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include"/>
+					<Add directory="E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include/opencv"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/cpp c/mingw_64_2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 code/fast"/>
+					<CompileFile command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/computer graphics/Games101/homework/1/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/computer graphics/Games101/homework/1/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/cpp c/mingw_64_2/mingw64/bin/mingw32-make.exe -f &quot;F:/computer graphics/Games101/homework/1/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/Triangle.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/Triangle.hpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/main.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/rasterizer.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/rasterizer.hpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="F:/computer graphics/Games101/homework/1/code/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\graphics_lib_cpp\opencv_2\opencv\mingw64_build\install\x64\mingw\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

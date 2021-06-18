@@ -12,7 +12,7 @@ include_directories(/usr/local/include)
 
 # Where to find CMake modules and OpenCV
 
-set(OpenCV_DIR "E://graphics_lib_cpp//opencv_2//opencv//mingw64_build//install")
+set(OpenCV_DIR "E://opencv//graphics_lib_cpp//opencv_2//opencv//mingw64_build//install")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
@@ -30,6 +30,6 @@ target_link_libraries(code ${OpenCV_LIBS})
 
 #eigen库
 
-include_directories(F://computer graphics//eigen//eigen3)
+include_directories(E://opencv//computer graphics//eigen//eigen3)
 
 set(SOURCE_FILES main.cpp)

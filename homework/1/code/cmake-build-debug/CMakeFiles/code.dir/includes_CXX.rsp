@@ -1,1 +1,1 @@
--I/usr/local/include -IF:/computer -I"F:/computer graphics/Games101/homework/1/code/graphics/eigen/eigen3" -isystem E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include -isystem E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include/opencv 
+-I/usr/local/include -IE:/opencv/computer -IE:/GitHub/repositories/Games101/homework/1/code/graphics/eigen/eigen3 -isystem E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include -isystem E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include/opencv 

@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "E:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "E:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "F:\computer graphics\Games101\homework\1\code"
+CMAKE_SOURCE_DIR = E:\GitHub\repositories\Games101\homework\1\code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "F:\computer graphics\Games101\homework\1\code\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/code.dir/depend.make
@@ -79,44 +79,44 @@ include CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/main.cpp.obj: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/main.cpp.obj: CMakeFiles/code.dir/includes_CXX.rsp
 CMakeFiles/code.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\computer graphics\Games101\homework\1\code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code.dir/main.cpp.obj"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\main.cpp.obj -c "F:\computer graphics\Games101\homework\1\code\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code.dir/main.cpp.obj"
+	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\main.cpp.obj -c E:\GitHub\repositories\Games101\homework\1\code\main.cpp
 
 CMakeFiles/code.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/main.cpp.i"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\computer graphics\Games101\homework\1\code\main.cpp" > CMakeFiles\code.dir\main.cpp.i
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\repositories\Games101\homework\1\code\main.cpp > CMakeFiles\code.dir\main.cpp.i
 
 CMakeFiles/code.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/main.cpp.s"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\computer graphics\Games101\homework\1\code\main.cpp" -o CMakeFiles\code.dir\main.cpp.s
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\repositories\Games101\homework\1\code\main.cpp -o CMakeFiles\code.dir\main.cpp.s
 
 CMakeFiles/code.dir/rasterizer.cpp.obj: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/rasterizer.cpp.obj: CMakeFiles/code.dir/includes_CXX.rsp
 CMakeFiles/code.dir/rasterizer.cpp.obj: ../rasterizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\computer graphics\Games101\homework\1\code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/code.dir/rasterizer.cpp.obj"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\rasterizer.cpp.obj -c "F:\computer graphics\Games101\homework\1\code\rasterizer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/code.dir/rasterizer.cpp.obj"
+	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\rasterizer.cpp.obj -c E:\GitHub\repositories\Games101\homework\1\code\rasterizer.cpp
 
 CMakeFiles/code.dir/rasterizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/rasterizer.cpp.i"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\computer graphics\Games101\homework\1\code\rasterizer.cpp" > CMakeFiles\code.dir\rasterizer.cpp.i
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\repositories\Games101\homework\1\code\rasterizer.cpp > CMakeFiles\code.dir\rasterizer.cpp.i
 
 CMakeFiles/code.dir/rasterizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/rasterizer.cpp.s"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\computer graphics\Games101\homework\1\code\rasterizer.cpp" -o CMakeFiles\code.dir\rasterizer.cpp.s
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\repositories\Games101\homework\1\code\rasterizer.cpp -o CMakeFiles\code.dir\rasterizer.cpp.s
 
 CMakeFiles/code.dir/Triangle.cpp.obj: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/Triangle.cpp.obj: CMakeFiles/code.dir/includes_CXX.rsp
 CMakeFiles/code.dir/Triangle.cpp.obj: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="F:\computer graphics\Games101\homework\1\code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/code.dir/Triangle.cpp.obj"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\Triangle.cpp.obj -c "F:\computer graphics\Games101\homework\1\code\Triangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/code.dir/Triangle.cpp.obj"
+	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\code.dir\Triangle.cpp.obj -c E:\GitHub\repositories\Games101\homework\1\code\Triangle.cpp
 
 CMakeFiles/code.dir/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/Triangle.cpp.i"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\computer graphics\Games101\homework\1\code\Triangle.cpp" > CMakeFiles\code.dir\Triangle.cpp.i
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\repositories\Games101\homework\1\code\Triangle.cpp > CMakeFiles\code.dir\Triangle.cpp.i
 
 CMakeFiles/code.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/Triangle.cpp.s"
-	"E:\cpp c\mingw_64_2\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\computer graphics\Games101\homework\1\code\Triangle.cpp" -o CMakeFiles\code.dir\Triangle.cpp.s
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\repositories\Games101\homework\1\code\Triangle.cpp -o CMakeFiles\code.dir\Triangle.cpp.s
 
 # Object files for target code
 code_OBJECTS = \
@@ -131,14 +131,14 @@ code.exe: CMakeFiles/code.dir/main.cpp.obj
 code.exe: CMakeFiles/code.dir/rasterizer.cpp.obj
 code.exe: CMakeFiles/code.dir/Triangle.cpp.obj
 code.exe: CMakeFiles/code.dir/build.make
-code.exe: E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_highgui320.dll.a
-code.exe: E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_imgcodecs320.dll.a
-code.exe: E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_imgproc320.dll.a
-code.exe: E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_core320.dll.a
+code.exe: E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_highgui320.dll.a
+code.exe: E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_imgcodecs320.dll.a
+code.exe: E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_imgproc320.dll.a
+code.exe: E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib/libopencv_core320.dll.a
 code.exe: CMakeFiles/code.dir/linklibs.rsp
 code.exe: CMakeFiles/code.dir/objects1.rsp
 code.exe: CMakeFiles/code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="F:\computer graphics\Games101\homework\1\code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable code.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\code.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,6 +151,6 @@ CMakeFiles/code.dir/clean:
 .PHONY : CMakeFiles/code.dir/clean
 
 CMakeFiles/code.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "F:\computer graphics\Games101\homework\1\code" "F:\computer graphics\Games101\homework\1\code" "F:\computer graphics\Games101\homework\1\code\cmake-build-debug" "F:\computer graphics\Games101\homework\1\code\cmake-build-debug" "F:\computer graphics\Games101\homework\1\code\cmake-build-debug\CMakeFiles\code.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\GitHub\repositories\Games101\homework\1\code E:\GitHub\repositories\Games101\homework\1\code E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug E:\GitHub\repositories\Games101\homework\1\code\cmake-build-debug\CMakeFiles\code.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/code.dir/depend
 

@@ -5,7 +5,7 @@
 #ifndef RASTERIZER_TRIANGLE_H
 #define RASTERIZER_TRIANGLE_H
 
-#include <E://graphics_lib_cpp//eigen//eigen3//Eigen//Eigen>
+#include "./eigen/eigen3/Eigen/Eigen"
 
 using namespace Eigen;
 class Triangle

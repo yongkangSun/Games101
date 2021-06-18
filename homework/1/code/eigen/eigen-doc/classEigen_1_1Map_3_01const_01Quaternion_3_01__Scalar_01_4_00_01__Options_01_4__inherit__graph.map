@@ -1,0 +1,5 @@
+<map id="Eigen::Map&lt; const Quaternion&lt; _Scalar &gt;, _Options &gt;" name="Eigen::Map&lt; const Quaternion&lt; _Scalar &gt;, _Options &gt;">
+<area shape="rect" id="node1" title="Quaternion expression mapping a constant memory buffer." alt="" coords="5,608,204,715"/>
+<area shape="rect" id="node2" href="$classEigen_1_1QuaternionBase.html" title=" " alt="" coords="17,292,192,560"/>
+<area shape="rect" id="node3" href="$classEigen_1_1RotationBase.html" title=" " alt="" coords="10,5,199,244"/>
+</map>

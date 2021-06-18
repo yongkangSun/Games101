@@ -1,9 +1,9 @@
-"E:\cpp c\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "F:\computer graphics\Games101\homework\1\code"
+"E:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\GitHub\repositories\Games101\homework\1\code
 -- OpenCV ARCH: x64
 -- OpenCV RUNTIME: mingw
 -- OpenCV STATIC: ON
--- Found OpenCV 3.2.0 in E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib
--- You might need to add E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/bin to your PATH to be able to run your applications.
+-- Found OpenCV 3.2.0 in E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/lib
+-- You might need to add E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/x64/mingw/bin to your PATH to be able to run your applications.
 -- Configuring done
 -- Generating done
--- Build files have been written to: F:/computer graphics/Games101/homework/1/code/cmake-build-debug
+-- Build files have been written to: E:/GitHub/repositories/Games101/homework/1/code/cmake-build-debug

@@ -1,0 +1,7 @@
+<map id="Eigen::SparseSolverBase&lt; Derived &gt;" name="Eigen::SparseSolverBase&lt; Derived &gt;">
+<area shape="rect" id="node1" title="A base class for sparse solvers." alt="" coords="289,5,459,171"/>
+<area shape="rect" id="node2" href="$classEigen_1_1CholmodBase.html" title="The base class for the direct Cholesky factorization of Cholmod." alt="" coords="5,270,156,670"/>
+<area shape="rect" id="node3" href="$classEigen_1_1IterativeSolverBase.html" title="Base class for linear iterative solvers." alt="" coords="180,263,357,677"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SimplicialCholeskyBase.html" title="A base class for direct sparse Cholesky factorizations." alt="" coords="381,219,577,721"/>
+<area shape="rect" id="node5" href="$classEigen_1_1SuperLUBase.html" title="The base class for the direct and incomplete LU factorization of SuperLU." alt="" coords="602,248,783,692"/>
+</map>

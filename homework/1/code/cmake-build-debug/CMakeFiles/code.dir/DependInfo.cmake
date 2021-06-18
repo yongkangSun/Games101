@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/computer graphics/Games101/homework/1/code/Triangle.cpp" "F:/computer graphics/Games101/homework/1/code/cmake-build-debug/CMakeFiles/code.dir/Triangle.cpp.obj"
-  "F:/computer graphics/Games101/homework/1/code/main.cpp" "F:/computer graphics/Games101/homework/1/code/cmake-build-debug/CMakeFiles/code.dir/main.cpp.obj"
-  "F:/computer graphics/Games101/homework/1/code/rasterizer.cpp" "F:/computer graphics/Games101/homework/1/code/cmake-build-debug/CMakeFiles/code.dir/rasterizer.cpp.obj"
+  "E:/GitHub/repositories/Games101/homework/1/code/Triangle.cpp" "E:/GitHub/repositories/Games101/homework/1/code/cmake-build-debug/CMakeFiles/code.dir/Triangle.cpp.obj"
+  "E:/GitHub/repositories/Games101/homework/1/code/main.cpp" "E:/GitHub/repositories/Games101/homework/1/code/cmake-build-debug/CMakeFiles/code.dir/main.cpp.obj"
+  "E:/GitHub/repositories/Games101/homework/1/code/rasterizer.cpp" "E:/GitHub/repositories/Games101/homework/1/code/cmake-build-debug/CMakeFiles/code.dir/rasterizer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
-  "F:/computer"
+  "E:/opencv/computer"
   "../graphics/eigen/eigen3"
-  "E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include"
-  "E:/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include/opencv"
+  "E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include"
+  "E:/opencv/graphics_lib_cpp/opencv_2/opencv/mingw64_build/install/include/opencv"
   )
 
 # Targets to which this target links.

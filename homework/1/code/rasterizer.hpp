@@ -2,7 +2,7 @@
 
 #include "Triangle.hpp"
 #include <algorithm>
-#include <E://graphics_lib_cpp//eigen//eigen3//Eigen//Eigen>
+#include "./eigen/eigen3/Eigen/Eigen"
 
 using namespace Eigen;
 using namespace std;

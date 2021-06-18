@@ -1,6 +1,6 @@
 #include "Triangle.hpp"
 #include "rasterizer.hpp"
-#include <E://graphics_lib_cpp//eigen//eigen3//Eigen//Eigen>
+#include "./eigen/eigen3/Eigen/Eigen"
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
